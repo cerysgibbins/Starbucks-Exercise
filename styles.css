@@ -1,0 +1,424 @@
+﻿html, body {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	min-width: 320px; /*smart phone*/
+	font-size: 0.85em;
+}
+
+
+#pageHeader {
+    position: relative;
+}
+
+.headerBar {
+    background-color: #006341;
+    height: 10px;
+}
+
+.pageContentWrapper, .pageContentSection > div {
+    max-width: 85em; /*1360px*/
+    margin: 0 auto;
+}
+
+.headerContent {
+    padding: 5px 0px;
+}
+
+#headerMainContent {
+    overflow: auto;
+    position: relative;
+}
+
+    .horizontalMenuList a {
+        color: #242221;
+    }
+
+#mainMenu, #navUtilities, #searchBox {
+    display: inline-block;
+}
+
+.menuList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menuList a {
+	text-decoration: none;	
+}
+
+.horizontalMenuList > li {
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+#navMainMenu {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0px;
+}
+
+#navMainMenu li:hover {
+
+}
+
+#utilities {
+    text-align: right;
+}
+
+#logo {
+    position: relative;
+    background: url(images/logo.svg) no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+
+#pageMainContent {
+    
+}
+
+.pageContentSection img {
+	max-width: 100%;
+	height: auto;	
+}
+
+.pageContentSection {
+    padding: 20px 0px;
+}
+
+.pageContentSection > div {
+    width: 83.333333333333333333333333333333%;
+}
+
+.pageContentSection:nth-child(2n+1) > .textBlock {
+    text-align: center;
+}
+
+.textBlock {
+    padding: 15px 10px;
+}
+
+.textBlock > h2 {
+    text-transform: uppercase;
+}
+
+.textBlock > a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.textBlock a::after {
+    content: " »";
+}
+
+.pageContentSection:nth-child(2n+0){
+    background-color: #1E1D1D;
+    color: #fff;
+    overflow: auto;
+}
+
+.pageContentSection:nth-child(2n+0) a {
+    color: #fff;
+}
+
+#myStarbucksReward {
+    padding: 0px;
+}
+
+#seasonalAdvert {
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+#rewardsLogo {
+    background-color: #272727;
+}
+
+#rewardsLogo > div {
+    background: url(images/MSR-partial_star.png) no-repeat transparent;
+    background-position: right center;
+    background-color: transparent;
+    padding: 15px 0px;   
+}
+
+#starbucksShop {
+    background: url(images/diamond_background.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.signUpMSR {
+    padding-bottom: 20px;
+}
+
+.signUpMSRLink {
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+.signUpMSRLink:first-child {
+    background-color: #E3C383; /*#EBD4A8;*/
+    color:#000;
+}
+
+    .signUpMSRLink:last-child {
+        border: 1px solid #fff;
+        color:#fff;
+    }
+
+#foodMenu {
+    background-color: #eee8da;
+    color: #000;
+}
+
+#foodMenu a {
+    color: #000;
+}
+
+#specials, #socialLinks {
+    background-color: #f2f0ee;
+}
+
+#myStarbucksReward a, #seasonalBlends a {
+
+}
+
+#pageFooter {
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.navFooterMenu > li {
+    padding: 10px 0px;
+}
+
+.navFooterMenu a {
+    color: #3d3935;
+}
+
+.footerMenuHeader > h4 {
+    text-transform: uppercase;
+}
+
+.footerMenuContainer {
+    float:left;
+}
+
+#pageFooter > .pageContentWrapper {
+    overflow: auto;
+}
+
+.footerBar {
+    background-color: #000;
+    height: 10px;
+}
+
+#socialLinks {
+    padding: 20px 10px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+#nav-socialLinks a {
+    display: inline-block;
+}
+
+#nav-socialLinks > li {
+    width: 25px;
+    height: 30px;
+    padding: 0px;
+    background: url(images/social_icons.png) no-repeat;
+    background-size: auto 100%;
+}
+
+#nav-socialLinks > .facebook {
+    background-position: 0 0;
+}
+
+#nav-socialLinks > .twitter {
+    background-position: -25px 0px;
+    width: 29px;
+}
+
+#navHamburger {
+    display: none;
+}
+
+@media (min-width: 540px) {
+	
+	#seasonalAdvert {
+		background: url(images/sparkle.jpg) no-repeat;
+		background-size: 100% 100%;
+		background-position: center top;	
+	}
+	
+	@media (min-width: 540px) {
+		#seasonalAdvert {
+			height: 252px;
+			background-size: auto 100%;	
+		}
+	}
+	
+	@media (min-width: 768px) {
+		#seasonalAdvert {
+			height: 392px;
+		}
+		
+		#logo {
+			width: 62px;
+			height: 62px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			margin-left: 10px;
+			margin-right: 10px;	
+		}
+		
+		#pageFooter > .pageContentWrapper {
+			background:url(images/wordmark_footer.png) no-repeat;
+			background-position: 98% 10px;
+			background-size: 16px;	
+		}
+		
+		
+	}
+	
+	@media (min-width: 960px) {
+		#seasonalAdvert {
+			height: 532px;	
+		}
+	}
+	
+	@media (min-width: 1160px) {
+		#seasonalAdvert {
+			height: 560px;	
+		}
+	}
+}
+
+@media (max-width: 540px)  {
+	
+	#seasonalAdvert {
+		background: url(images/sparkle_t.jpg) no-repeat;
+		background-size: 100% 100%;	
+	}
+	
+	@media (min-width: 320px) {
+		#seasonalAdvert {
+			height: 675px;
+		}
+	}
+	
+	@media (max-width: 320px) {
+		#seasonalAdvert {
+			height: 450px;
+		}
+	}
+}
+
+@media (max-width:768px)  {
+	#mainMenu {
+		width: 100%;	
+	}
+	
+	#navMainMenu {
+		display: none;
+		width: 100%;
+		position: relative;	
+	}
+	
+	#navMainMenu > li {
+		display: block;
+		padding: 10px 50px 10px 50px;
+		background-color: #1E1E1E;	
+	}
+	
+	#navMainMenu a {
+		color: #FFF;	
+	}
+	
+	#searchBox, #navUtilities > li:first-child {
+		display:none;	
+	}
+	
+	#navHamburger {
+		position: relative;
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		padding-left:85%;	
+	}
+	
+	#navHamburger > a {
+		display: inline-block;
+	}
+	
+	#navHamburger span {
+		background-color: #006341;
+		width: 30px;
+		height: 4px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		display: block; 
+	}
+	
+	#navHamburger.expand {
+		background-colour: #1E1E1E;
+		colorL #FFF;
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+
+	#navHamburger.expand:before {
+		content: "X";
+		cursor: pointer;	
+	}
+	
+	#navHamburger.expand span {
+		display: none;	
+	}
+	
+	#navMainMenu.expand {
+		display: block;	
+	}
+	
+	#logo {
+		width: 50px;
+		height:50px;
+		margin: 10px 5px 10px 5px;
+		position:absolute;
+		top: 40px;
+	}
+	
+	@media (min-width: 480px) {
+		#navMainMenu > li {
+			width: 50%;
+			float: left;
+			padding-top: 10px;
+			padding-bottom: 10px;	
+		}
+		
+		#navMainMenu a {
+			padding-left: 10px;
+		}
+	}
+}
+
+
+
